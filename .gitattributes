@@ -1,0 +1,12 @@
+# Exclude build artifacts
+
+*.bat text eol=crlf
+* text=auto
+vendor/* linguist-vendored
+node_modules/* linguist-vendored   
+package-lock.json linguist-generated
+public/* linguist-vendored
+
+go.sum linguist-generated
+src/**/*.tsx linguist-detectable
+*.min.js linguist-generated
