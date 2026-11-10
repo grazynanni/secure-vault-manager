@@ -1,0 +1,6 @@
+.env
+coverage/
+*.tgz
+yarn-error.log*
+*.log
+dist/
